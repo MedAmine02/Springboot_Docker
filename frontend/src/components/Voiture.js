@@ -243,7 +243,7 @@ class Voiture extends Component {
               </Row>
             </Card.Body>
             <Card.Footer style={{ textAlign: "right" }}>
-              <Button size="sm" variant="success" type="submit">
+              <Button size="sm" variant="success" type="submit" style={{ marginRight: "10px" }}>
                 Submit
               </Button>
               <Button size="sm" variant="info" type="reset">
