@@ -18,7 +18,7 @@ spec:
         imagePullPolicy: Never  # Use local image
         env:
         - name: REACT_APP_API_URL
-          value: http://backend-service:8080
+          value: "http://backend-service:8080"
         ports:
         - containerPort: 80
 ---
